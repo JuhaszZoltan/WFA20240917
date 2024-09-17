@@ -53,6 +53,8 @@ namespace WFA20240917
             BtnClickMeMouseEnter(null, null!);
             if(catches >= 5)
             {
+                sw.Stop();
+                timer.Stop();
                 MessageBox.Show(
                     caption: "YOU WIN!",
                     text: $"time: {sw.Elapsed.TotalSeconds} sec.\n" +
