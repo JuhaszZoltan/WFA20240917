@@ -43,7 +43,7 @@
             pnlMain.Controls.Add(btnClickMe);
             pnlMain.Location = new Point(12, 60);
             pnlMain.Name = "pnlMain";
-            pnlMain.Size = new Size(860, 789);
+            pnlMain.Size = new Size(481, 363);
             pnlMain.TabIndex = 0;
             // 
             // btnClickMe
@@ -62,7 +62,7 @@
             // 
             lblTime.Anchor = AnchorStyles.Top | AnchorStyles.Right;
             lblTime.Font = new Font("Consolas", 20F, FontStyle.Bold);
-            lblTime.Location = new Point(709, 9);
+            lblTime.Location = new Point(330, 9);
             lblTime.Name = "lblTime";
             lblTime.Size = new Size(163, 48);
             lblTime.TabIndex = 1;
@@ -83,12 +83,13 @@
             // 
             AutoScaleDimensions = new SizeF(9F, 21F);
             AutoScaleMode = AutoScaleMode.Font;
-            ClientSize = new Size(884, 861);
+            ClientSize = new Size(505, 516);
             Controls.Add(lblCatches);
             Controls.Add(lblTime);
             Controls.Add(pnlMain);
             Font = new Font("Segoe UI", 12F);
             Margin = new Padding(4);
+            MinimumSize = new Size(400, 400);
             Name = "FrmMain";
             Text = "Catch me!";
             pnlMain.ResumeLayout(false);
